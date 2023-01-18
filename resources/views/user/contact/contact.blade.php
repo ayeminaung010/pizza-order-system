@@ -25,7 +25,6 @@
                                         </div>
                                     </div>
                                 @endif
-
                             </div>
                             {{-- end alert  --}}
 

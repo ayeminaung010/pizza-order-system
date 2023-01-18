@@ -45,6 +45,7 @@
                                         <div class="image">
                                             <a href="#">
                                                 <img src="{{ asset('storage/'.Auth::user()->image) }}"  />
+                                                {{-- <img src="{{ Storage::url('app/public/'.Auth::user()->image) }}" alt="image"> --}}
                                             </a>
                                         </div>
                                     @endif
@@ -61,13 +62,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-5  ">
-                                   <a href="{{ route('admin#edit')}}" class="w-100">
-                                        <button class="btn btn-dark text-white w-100">
-                                            <i class="fa-solid fa-user-pen me-2"></i> Edit Profile
-                                        </button>
-                                   </a>
-                                </div>
+                            <div class="col-5  ">
+                                <a href="{{ route('admin#edit')}}" class="w-100">
+                                    <button class="btn btn-dark text-white w-100">
+                                        <i class="fa-solid fa-user-pen me-2"></i> Edit Profile
+                                    </button>
+                                </a>
+                            </div>
                             </div>
                         </div>
                     </div>

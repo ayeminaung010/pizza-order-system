@@ -123,7 +123,7 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
                         <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
-                        <form action="{{ route('user#subscribe')}}" method="POST">
+                        <form action="" method="POST">
                             <div class="input-group">
                                 <input type="text" class="form-control" name="email" placeholder="Your Email Address">
                                 <div class="input-group-append">

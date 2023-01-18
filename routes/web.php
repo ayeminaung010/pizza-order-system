@@ -96,7 +96,7 @@ Route::middleware(['auth'])->group(function () {
     });
 
 
-    
+
     //home
     Route::prefix('user')->middleware(['user_auth'])->group(function () {
 
@@ -139,3 +139,4 @@ Route::middleware(['auth'])->group(function () {
 
     });
 });
+
